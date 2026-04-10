@@ -18,11 +18,21 @@ rule-providers:
 
 ## 更新
 
-- 数据源: [Loyalsoldier/clash-rules](https://github.com/Loyalsoldier/clash-rules) (每日更新)
-- 本仓库: 服务器每天凌晨 3 点自动更新并推送
+- 数据源: [Loyalsoldier/clash-rules](https://github.com/Loyalsoldier/clash-rules)
+- 更新频率: 每天凌晨 3 点 (Cron)
+- 自动推送: 更新后自动提交到本仓库
 
 ## 规则文件
 
 | 文件 | 内容 |
 |------|------|
 | `clash-rules.yaml` | 完整的 Clash 分流规则 (12 万+ 条) |
+
+## 规则来源
+
+| 来源 | 内容 |
+|------|------|
+| lancidr.txt | 局域网 IP 直连 |
+| direct.txt | 国内网站直连 |
+| gfw.txt | GFW 代理规则 |
+| telegramcidr.txt | Telegram IP 段 |
